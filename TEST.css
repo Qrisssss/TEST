@@ -7,13 +7,6 @@
 #mob{display: block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.navbar{
-    align-items:right;
-}
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
   
   .navbar {
     background-color: #333;
@@ -87,6 +80,7 @@ body {
   }
   
 body {
+    margin: 0;
         font-family: Arial, sans-serif;
             display: flex;
                 justify-content: center;
