@@ -34,6 +34,6 @@ function calculateInterest() {
                                                     document.getElementById('result').innerText = 
                                                             `Interest: $${interest.toFixed(2)}\nTotal Amount: $${totalAmount.toFixed(2)}`;
                                                             }
-}
+
 
 
