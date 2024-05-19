@@ -2,6 +2,18 @@ function dark(){
     document.documentElement.classList.toggle('darklight');
 }
 
+const darkModeToggle = document.getElementById('darkModeToggle');
+const navbar = document.getElementById('navbar');
+
+darkModeToggle.addEventListener('change', () => {
+  if (darkModeToggle.checked) {
+    navbar.classList.add('dark-mode');
+  } else {
+    navbar.classList.remove('dark-mode');
+  }
+});
+
+
 function calculateInterest() {
         let principal = parseFloat(document.getElementById('principal').value);
             let rate = parseFloat(document.getElementById('rate').value);
