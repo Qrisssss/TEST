@@ -8,9 +8,9 @@
 .navbar {
     background-color: #333;
     color: white;
-    display: flex;
+    display: block;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 10px 20px;
   }  
 body {
