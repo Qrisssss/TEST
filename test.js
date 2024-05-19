@@ -16,7 +16,7 @@ function calculateInterest() {
                                                 let totalAmount = principal + interest;
 
                                                     document.getElementById('result').innerText = 
-                                                            `Interest: KSH ${interest.toFixed(2)}\nTotal Amount: KSH ${totalAmount.toFixed(2)}`;
+                                                            `Interest: $${interest.toFixed(2)}\nTotal Amount: $${totalAmount.toFixed(2)}`;
                                                             } let submit = document.getElementById('submit');
                                                                                                                         {
                                                             

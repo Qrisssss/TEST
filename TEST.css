@@ -1,7 +1,7 @@
 .darklight{
     margin-right: 100px;
     margin: auto;
-    display: inline-block;
+    display: inline-flex;
     color: blue;
     background-color:black;
 }
@@ -57,6 +57,7 @@ body {
 
                             .container {
                                 background-color: #fff;
+                                color: black;
                                     padding: 20px;
                                         border-radius: 8px;
                                             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
