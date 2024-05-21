@@ -12,14 +12,14 @@ function calculateInterest() {
                                     return;
                                         }
 
-                                            let interest = principal * (rate / 100) * time;
-                                                let totalAmount = principal + interest;
+                let interest = principal * (rate / 100) * time;
+                 let totalAmount = principal + interest;
 
-                                                    document.getElementById('result').innerText = 
-                                                            `Interest: $${interest.toFixed(2)}\nTotal Amount: $${totalAmount.toFixed(2)}`;
-                                                            } let submit = document.getElementById('submit');
-                                                                                                                        {
-                                                            
+                            document.getElementById('result').innerText = 
+                                   `Interest: $${interest.toFixed(2)}\nTotal Amount: $${totalAmount.toFixed(2)}\nhello brp`;
+                                        } let submit = document.getElementById('submit');
+                                                            {
+                                   
                                                             };
 
 
