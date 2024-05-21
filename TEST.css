@@ -9,12 +9,11 @@
     align-items: center;
     margin-right: ;
     float: left;
-    overflow:visi;
+    overflow:vi;
   }  
 body {
         font-family: Arial, sans-serif;
-            display:flex ;
-            justify-content: ; 
+     justify-content:space-around; 
 }
 
 .container {
@@ -32,15 +31,15 @@ body {
         width: 100%;
                 }
  h1 {
-                                                        text-align: center;
-                                                            margin-bottom: 20px;
-                                                            }
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
 form label, form input {
                               display:block ;
-                                                   width: 98%;
-                                                   margin-bottom: 10px;
-                                                                        }
+                               width: 98%;
+                               margin-bottom: 10px;
+                                    }
 
      form input {
         padding: 10px;
@@ -49,22 +48,21 @@ form label, form input {
         }
 
 button {
-                   display: block;
-                       width: 100%;
+          display: block;
+         width: 100%;
        padding: 10px;
      background-color: #007bff;
-                                                             color: #fff;
-                     border: none;
-                    border-radius: 4px;
-                                                                                            cursor: pointer;
-                                                                                     margin-top: 10px;
-                                                                                                                        }
+        color: #fff;
+       border: none;
+      border-radius: 4px;
+       cursor: pointer;
+     margin-top: 10px;
+                             }
+ button:hover {
+              background-color: #0056b3;
+             }
 
-                                                            button:hover {
-                                                                                                                            background-color: #0056b3;
-                                                                                                                            }
-
-                                                        #result {
-                                                                                                                                margin-top: 20px;
-                                                                                                                                    text-align: center;
-                                                                                                                                    }
+#result {
+     margin-top: 20px;
+        text-align: center;
+                          }
