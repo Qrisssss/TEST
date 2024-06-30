@@ -18,7 +18,7 @@ function calculateInterest() {
                 let weekly = daily * 7;
 
         document.getElementById('result').innerText =
-        `Interest: KSH${interest.toFixed(2)}\n Daily Interest:KSH${daily.toFixed(2)} \n weekly Interest:KSH${weekly.toFixed(2)}\n Monthly Interest:KSH${monthly.toFixed(2)}\n TotalAmount: KSH${totalAmount.toFixed(2)}\n`;} let submit = document.getElementById('submit');
+        `Annual Interest: KSH${interest.toFixed(2)}\n Daily Interest:KSH${daily.toFixed(2)} \n Weekly Interest:KSH${weekly.toFixed(2)}\n Monthly Interest:KSH${monthly.toFixed(2)}\n Total Amount: KSH${totalAmount.toFixed(2)}\n`;} let submit = document.getElementById('submit');
                                               {
                                    
                                                             };
